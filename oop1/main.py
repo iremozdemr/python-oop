@@ -6,7 +6,8 @@ car3 = Car("charger",2024,"green")
 #obje oluşturma
 
 print(car1)
-#adresi yazar
+#__str__ methodu yoksa adresi yazar
+#__str__ methodu varsa objeyi yazar
 print(car1.__dict__)
 #dictionary halinde yazar
 print(car1.model)
@@ -26,3 +27,8 @@ print(car1.num_of_cars)
 print(car2.num_of_cars)
 print(car3.num_of_cars)
 print(Car.num_of_cars)
+
+del car1.color
+#objenin değişkenini silme
+del car1
+#objeyi silme

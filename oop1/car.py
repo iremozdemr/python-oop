@@ -15,6 +15,9 @@ class Car:
         #her obje oluşturulduğunda 1 arttırılır
     #constructor
 
+    def __str__(self):
+        return f"{self.model} {self.year} {self.color}"
+
     def drive(self):
         print(f"you drive the {self.model}")
     #self yazılmazsa hata veriyor

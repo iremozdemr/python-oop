@@ -21,6 +21,16 @@ class Mouse(Animal):
     def speak(self):
         print("squeek!")
 
+class Bird(Animal):
+    pass
+#parent class'ın özellikleri dışında
+#başka özellik eklenmek istenmiyorsa pass yazılır
+
+class MyClass:
+    pass
+#class'lar boş olmamalıdır
+#boş olması isteniyorsa pass yazılır
+
 dog = Dog("scooby")
 cat = Cat("garfield")
 mouse = Mouse("mickey")
