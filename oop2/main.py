@@ -24,6 +24,7 @@ class Mouse(Animal):
 dog = Dog("scooby")
 cat = Cat("garfield")
 mouse = Mouse("mickey")
+animal = Animal("animal")
 
 print(dog.name)
 print(dog.is_alive)
